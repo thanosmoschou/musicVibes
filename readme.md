@@ -17,7 +17,7 @@ Open the project's folder in a terminal. If it is the first time you're running 
 pip install -r requirements.txt 
 ```
 
-to install all the required modules that app needs. The next time you run the app, you don't need to run the previous command, because all the modules are now downloaded.<br>
+to install all the required modules that app needs. The next time you run the app, you don't have to run the previous command, because all the modules are now downloaded.<br>
 
 Then type:
 
