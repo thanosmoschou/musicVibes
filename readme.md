@@ -11,19 +11,21 @@ This is a simple GUI music player built with tkinter module. It also uses mixer 
 
 
 ### How to run it
-First open the project's folder in a terminal and run the command:
+Open the project's folder in a terminal. If it is the first time you're running this app, you will need to download all the required modules. Type:
 
 ```
 pip install -r requirements.txt 
 ```
 
-to install all the required modules that app will use. <br>
+to install all the required modules that app needs. The next time you run the app, you don't need to run the previous command, because all the modules are now downloaded.<br>
 
 Then type:
 
 ```
 python3 musicVibes.py 
 ```
+to start the app.<br>
+
 
 Select a folder that has some music inside and let the app do its magic! The only thing you have to do is vibing!!!
 
