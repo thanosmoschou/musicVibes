@@ -11,6 +11,7 @@ This is a simple GUI music player built with tkinter module. It also uses mixer 
 
 
 ### How to run it
+You need python installed on your PC. <br>
 Open the project's folder in a terminal. If it is the first time you're running this app, you will need to download all the required modules that app uses. Simply type:
 
 ```
