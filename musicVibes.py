@@ -47,7 +47,7 @@ def selectFolder():
 
     folderName = filedialog.askdirectory(title = "Please select a folder with wav files")
     musicFiles = os.listdir(folderName)
-    musicFiles = [folderName + "/" + file for file in musicFiles if file.endswith(".wav")] #concatenate the folder path with the filename itself in order to play songs which are not in the same folder with the script
+    musicFiles = [folderName + "/" + file for file in musicFiles if file.endswith(".wav") or file.endswith(".mp3")] #concatenate the folder path with the filename itself in order to play songs which are not in the same folder with the script
 
     if(len(musicFiles) == 0):
         if messagebox.askretrycancel("No .wav files in this folder.", message = "Press Cancel to close the app or press Retry to select another folder.") ==  True:
