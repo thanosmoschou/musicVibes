@@ -28,7 +28,4 @@ python3 musicVibes.py
 to start the app.<br>
 
 
-Select a folder that has some music inside and let the app do its magic! The only thing you have to do is vibing!!!
-
-## Disclaimer
-For now it supports only files in .wav format.
+Select a folder that has some music inside and let the app do its magic! The only thing you have to do is vibing!!!
