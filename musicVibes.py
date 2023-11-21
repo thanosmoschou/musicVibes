@@ -45,7 +45,7 @@ def showButtons():
 def selectFolder():
     global folderName, musicFiles
 
-    folderName = filedialog.askdirectory(title = "Please select a folder with wav files")
+    folderName = filedialog.askdirectory(title = "Please select a folder with some music files")
     musicFiles = os.listdir(folderName)
     musicFiles = [folderName + "/" + file for file in musicFiles if file.endswith(".wav") or file.endswith(".mp3")] #concatenate the folder path with the filename itself in order to play songs which are not in the same folder with the script
 
