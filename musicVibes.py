@@ -2,7 +2,7 @@
 Author: Thanos Moschou
 Date: 08/2023
 Description: Let's have some fun with a simple music player made with Python.
-This is a GUI app that uses mixer module of pygame. For now make sure all your music files are in .wav format.
+This is a GUI app that uses mixer module of pygame.
 """
 
 from tkinter import *
@@ -50,7 +50,7 @@ def selectFolder():
     musicFiles = [folderName + "/" + file for file in musicFiles if file.endswith(".wav") or file.endswith(".mp3")] #concatenate the folder path with the filename itself in order to play songs which are not in the same folder with the script
 
     if(len(musicFiles) == 0):
-        if messagebox.askretrycancel("No .wav files in this folder.", message = "Press Cancel to close the app or press Retry to select another folder.") ==  True:
+        if messagebox.askretrycancel("No music files in this folder.", message = "Press Cancel to close the app or press Retry to select another folder.") ==  True:
             selectFolder()
         else:
             return False
